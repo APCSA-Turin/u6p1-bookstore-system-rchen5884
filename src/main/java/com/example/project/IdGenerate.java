@@ -28,7 +28,7 @@ public class IdGenerate{ //This class contains statics variable and methods, you
     /**
      * Converts the String ID into a Integer and adds it by 1
      * Converts back to a String afterwards
-     * @return
+     * @return currentId
      */
     public static String generateID(){
         int number = Integer.parseInt(currentId);
